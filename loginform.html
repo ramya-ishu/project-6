@@ -1,0 +1,41 @@
+<html>
+    <head>
+       <title>UI CSS Pages</title>
+       <style>
+  body {
+         background-image:url("loginimage.jpg");
+                 background-size: cover;
+             }
+             div{
+               text-align: center;
+             }
+             </style>
+<script>
+         // User Validations
+ function loginValidation() {
+             // Ramesh
+   var uname = document.myform.username.value;
+              //Ramesh@123
+   var password = document.myform.password.value;
+             if(uname==null || uname=="") {
+               alert("Name cant be blank")
+               return false;  
+            } else if (password.length<6){
+               alert("Password Must be 6 letters")
+               return false;
+            }  
+            return true                 
+         }           
+      </script>
+      </head>
+      <body>
+         <div>
+          <h2>Login Page</h2>  
+<form name="myform" action="index.html" onsubmit="return loginValidation(this)">
+Username:<input type="text" name="username"> <br>
+Password:<input type="pass" name="password"> <br>
+<input type="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>

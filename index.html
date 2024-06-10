@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cakes</title>
+    <link rel="shortcut icon" type="image" href="./image/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+    <!-- icons links -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons links -->
+    <!-- animation links -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animation links -->
+</head>
+<body>
+    <div class="all-content">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md" id="navbar">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#" id="logo"><img src="./image/logo.png" alt="" width="50px"  >RK-Bakery</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span><img src="./image/menu.png" alt="" width="30px"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="loginform.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registerform.html">Register</a>
+                    </li>
+                    <!-- dropdown -->
+                    <li class="nav-item dropdown">
+                        <a href="category.html" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                            Category
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="Birthdaycakes.html" class="dropdown-item">Birthday Cakes</a>
+                            <a href="Cookies.html" class="dropdown-item">Cookies</a>
+                            <a href="Icecreams.html" class="dropdown-item">Icecreams</a>
+                            <a href="Sweets.html" class="dropdown-item">Sweets</a>
+                            <a href="Cupcakes.html" class="dropdown-item">Cup Cakes</a>
+                        </div>
+                    </li>
+                    <!-- dropdown -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="galary.html">Galary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icons">
+                <img src="./image/user.png" alt="" width="20px">
+                <img src="./image/heart.png" alt="" width="20px">
+                <img src="./image/add.png" alt="" width="24px">
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+
+
+        <!-- home section -->
+        <div class="home">
+            <div class="content" data-aos="zoom-out-right">
+                <h3>Delicious
+                    <br> RK-Bakery
+                </h3>
+                <h2><span class="changecontent"></span></h2>
+
+                <a href="home.html" class="btn">Order Now</a>
+            </div>
+            <div class="img" data-aos="zoom-out-left">
+                <img src="./image/background.png">
+            </div>
+        </div>
+        <!-- home section end -->
+
+        <!-- top cards -->
+        <div class="container" id="box" data-aos="fade-up" data-aos-duration="1500">
+            <div class="row">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/box1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/box2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/box3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top cards end -->
+
+        <!-- banner -->
+        <div class="banner" data-aos="fade-up" data-aos-duration="1500">
+            <div class="content">
+                <h3>Delicious Cake</h3>
+                <h2>UPTO 50% OFF</h2>
+                <div id="btnorder"><button>Order Now</button></div>
+            </div>
+            <div class="img">
+                <img src="./image/banner-background.png" alt="">
+            </div>
+        </div>
+        <!-- banner end -->
+
+        <!-- product cards -->
+        <section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h1>CAKES</h1>
+                <div class="row" style="margin-top:50px;">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c1.png" alt="">
+                            <div class="card-body">
+                                <h3> Pineapple </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c2.png" alt="">
+                            <div class="card-body">
+                                <h3> Strawberry </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c3.png" alt="">
+                            <div class="card-body">
+                                <h3> Darkforest </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c4.png" alt="">
+                            <div class="card-body">
+                                <h3> Whiteforest </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- product cards -->
+<section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
+    <div class="container">
+        <h1>Pastry</h1>
+                <div class="row" style="margin-top:50px;" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c5.png" alt="">
+                            <div class="card-body">
+                                <h3>Vanila</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+
+                            <img src="./image/c6.png" alt="">
+                            <div class="card-body">
+                                <h3> RedVelvet</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c7.png" alt="">
+                            <div class="card-body">
+                                <h3>Butterscotch </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c8.png" alt="">
+                            <div class="card-body">
+                                <h3>Darkforest</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h1>COOKIES</h1>
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c9.png" alt="">
+                            <div class="card-body">
+                                <h3>Chocolate Chip</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c10.png" alt="">
+                            <div class="card-body">
+                                <h3>RedVelvet </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c11.png" alt="">
+                            <div class="card-body">
+                                <h3>Grinch </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c12.png" alt="">
+                            <div class="card-body">
+                                <h3>Peanut Butter</h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- product cards end-->
+
+
+        <!-- gallary -->
+        <section id="gallary" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h1>OUR GALLARY</h1>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-center">Sweets</h3>
+                            </div>
+                            <img src="./image/o1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-center">Ice Cream</h3>
+                            </div>
+                            <img src="./image/o2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-center">Cup Cake</h3>
+                            </div>
+                            <img src="./image/o3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row" style="margin-top: 30px;" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-center">Delicious Cake</h3>
+                            </div>
+                            <img src="./image/o4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-center">Cookies</h3>
+                            </div>
+                            <img src="./image/o5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-center">Slice Cake</h3>
+                            </div>
+                            <img src="./image/o6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallary -->
+
+
+
+        <!-- about -->
+        <div class="container" id="about" data-aos="fade-up" data-aos-duration="1500">
+            <h1>ABOUT US</h1>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/about.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 py-3 py-md-0">
+                    <p>When you send a cake, we know you aren’t just sending dessert. You are sending a moment of celebration, joy, healing and togetherness. When you can’t be there to celebrate in person, We Take The Cake makes it easy to delight your family, friends and colleagues with our freshly baked desserts delivered right to their doorstep ready to enjoy. Our experienced bakers mix all of our batters and frostings by hand, just like grandma used to make. We always bake with whole buttermilk, fresh eggs and real butter – never a cake mix or commercially made frostings.
+
+                        We understand that elegant presentation matters as much as the taste, and our team of very talented cake artisans take the time to decorate every cake by hand. Our shipping team then carefully packages your cake in our custom designed decorative boxes and sends them off to you. We Take The Cake goes the extra mile to make sure our mail order desserts deliver an experience that makes you proud that you chose us to create the gift people will talk about long after the celebration is over..</p>
+
+                    <div id="bt"><button>Read More...</button></div>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+
+
+        <!-- contact  -->
+        <div class="container" id="contact" data-aos="fade-up" data-aos-duration="1500">
+            <h1>CONTACT US</h1>
+            <div class="row">
+                <div class="col-md-4 py-1 py-md-0">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="usr" placeholder="Name">
+                    </div>
+                </div>
+                <div class="col-md-4 py-1 py-md-0">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="eml" placeholder="Email">
+                    </div>
+                </div>
+                <div class="col-md-4 py-1 py-md-0">
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="phn" placeholder="Phone">
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+            </div>
+            <div id="messagebtn"><button>Send Message</button></div>
+        </div>
+        <!-- contact end -->
+
+
+        <!-- footer -->
+        <footer id="footer" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="text-center">RK-Bakery</h1>
+            <div class="icons text-center">
+                <a href="https://www.twitter.com/" class="bx bxl-twitter"></a>
+                <a href="https://www.facebook.com/" class="bx bxl-facebook" ></a>
+                <a href="https://www.youtube.com/"class="bx bxl-youtube"></a>
+                <a href="https://www.instragram.com/" class="bx bxl-instagram"></a>
+            </div>
+            <div class="copyright text-center">
+                &copy; Copyright <strong>RK-Bakery</strong> .All Rights Reserved
+            </div>
+            <div class="credite text-center">
+                Designed By <a href="#"><span>Ramya</span></a>
+            </div>
+        </footer>
+        <!-- footer -->
+
+        <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+
+    </div>
+
+</body>
+
+</html>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
